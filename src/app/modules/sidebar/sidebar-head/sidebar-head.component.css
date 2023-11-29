@@ -1,0 +1,15 @@
+.root {
+    background-color: rgb(0,48,81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    margin : 0px;
+    height: 40px;
+    padding: 10px;
+    font-family: "Gothic-Bold", "sans-serif";
+    font-weight: 700;
+}
+.root div img {
+    width: 100px;
+}

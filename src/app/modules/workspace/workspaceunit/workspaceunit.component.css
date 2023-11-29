@@ -1,0 +1,35 @@
+.root {
+    height: 89.5vh;
+    display: flex;
+    width: 81%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* position: absolute; */
+    top: 10.5%;
+    background-color: rgb(241, 244, 245);
+    overflow-y: scroll;
+    padding-left: 2%;
+    overflow-x: hidden;
+}
+.title{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.title span {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #38474f;
+    font-size: 26px;
+}
+.units {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    padding: 0px;
+    padding-left: 2%;
+}

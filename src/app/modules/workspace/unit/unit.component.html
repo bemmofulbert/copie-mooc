@@ -1,0 +1,23 @@
+<div class="root">
+    <div class="pres">
+        <div class="img"><img [src]='img'></div>
+        <div class="bande"></div>
+    </div>
+    <div class="infos">
+        <div class="suptitle"><span>MODULE {{ suptitle }}</span></div>
+        <div class="title">{{ title }}</div>
+        <div class="timeScore">
+            <div>
+                <img src="">
+                <span>Temps passe : {{ time }}</span>
+            </div>
+            <div>
+                <img src="">
+                <span>Score : {{ score }}%</span>
+            </div>
+        </div>
+        <div class="buts">
+            <div class="aff_unit"><a routerLink="/question">Afficher les unites</a></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <button
+            (click)="toggle()"
+        >toggle</button>
+    </div>
+    <div *ngIf="never; else al">{{ text }}</div>
+    <ng-template #al> NO </ng-template>
+    <div>
+        <button [disabled]="never"
+            (click)="up(text)"
+            >{{ text }}</button>
+    </div>
+</div>

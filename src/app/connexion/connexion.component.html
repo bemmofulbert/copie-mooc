@@ -1,0 +1,27 @@
+
+<html *ngIf="show">
+    <head>
+        <title>Connexion | SecNum académie</title>
+    </head>
+    <body>
+        <div id="bg"></div>
+        <div id="img_present"><img src="assets/img/logo_secnum.png"></div>
+        <div id="plain_input">
+            <div><input type="text" placeholder="Identifiant" /></div>
+            <div><input type="password" placeholder="Mot de Passe" /></div>
+        </div>
+        <div id="plain_label">
+            <div>
+                <input type="checkbox" id="remember" />
+                <label for="remember">Se souvenir de moi</label>
+            </div>
+            <div><label class="forget">Identifiant ou mot de passe oublié ? </label></div>
+        </div>
+        <div id="plain_button">
+            <div id="signup"><a>CRÉER UN COMPTE</a></div><router-outlet></router-outlet>
+            <div id="login"><a routerLink="/content" >CONNEXION</a></div>
+        </div>
+        <div id="img_end" ><img src="assets/img/logo_anssi.png"></div>
+    </body>
+</html>
+

@@ -1,0 +1,28 @@
+.root {
+    min-width:270px;
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(5,70,112);
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px;
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+}
+.top {
+    height: 17%;
+}
+.center {
+    display: flex;
+    height: 73%;
+    flex-direction: column;
+}
+.down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10%;
+}

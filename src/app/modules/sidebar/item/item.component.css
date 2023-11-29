@@ -1,0 +1,30 @@
+.root {
+    background-color: rgb(5,70,112);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 250px;
+    margin : 0px;
+    height: 30px;
+    padding: 10px;
+    font-family: "Gothic-Bold", "sans-serif";
+    font-weight: 700;
+}
+.root:hover {
+    background-color: rgb(20,85,127);
+}
+.icon {
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.icon img {
+    width: 17px;
+}
+.title {
+    color: white;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+}
